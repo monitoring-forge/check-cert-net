@@ -33,6 +33,6 @@ check-cert-net OK: Expiration date: 2020-07-02, 62 days remaining
 ## Install
 
 ```
-$ mkr plugin install kazeburo/check-cert-net
+$ mkr plugin install monitoring-forge/check-cert-net
 ```
 
