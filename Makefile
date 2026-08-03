@@ -1,21 +1,17 @@
 VERSION=0.1.0
-LDFLAGS=-ldflags "-w -s -X main.version=${VERSION}"
+GITCOMMIT?=$(shell git describe --dirty --always)
+LDFLAGS=-ldflags "-w -s -X main.version=${VERSION} -X main.commit=${GITCOMMIT}"
 
 all: check-cert-net
 
-check-cert-net: main.go execpipe/*.go
-	go build $(LDFLAGS) -o check-cert-net main.go
+check-cert-net: *.go execpipe/*.go
+	go build $(LDFLAGS) -o check-cert-net
 
-linux: main.go execpipe/*.go
-	GOOS=linux GOARCH=amd64 go build $(LDFLAGS) -o check-cert-net main.go
+linux: *.go execpipe/*.go
+	GOOS=linux GOARCH=amd64 go build $(LDFLAGS) -o check-cert-net
 
 check:
-	go test ./...
+	go test -v ./...
 
-fmt:
-	go fmt ./...
-
-tag:
-	git tag v${VERSION}
-	git push origin v${VERSION}
-	git push origin master
+lint:
+	golangci-lint run ./...
