@@ -1,4 +1,4 @@
-module github.com/kazeburo/check-cert-net
+module github.com/monitoring-forge/check-cert-net
 
 go 1.25.0
 

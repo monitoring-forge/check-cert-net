@@ -8,7 +8,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/kazeburo/check-cert-net/execpipe"
+	"github.com/monitoring-forge/check-cert-net/execpipe"
 )
 
 func fmtString(s string) string {
