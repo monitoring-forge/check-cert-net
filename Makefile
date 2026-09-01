@@ -1,8 +1,8 @@
 VERSION=0.1.0
-GITCOMMIT?=$(shell git describe --dirty --always)
-LDFLAGS=-ldflags "-w -s -X main.version=${VERSION} -X main.commit=${GITCOMMIT}"
-
+LDFLAGS=-ldflags "-w -s -X main.version=${VERSION}"
 all: check-cert-net
+
+.PHONY: check-cert-net linux check lint
 
 check-cert-net: *.go execpipe/*.go
 	go build $(LDFLAGS) -o check-cert-net
