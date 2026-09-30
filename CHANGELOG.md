@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.1.3](https://github.com/monitoring-forge/check-cert-net/compare/v0.1.2...v0.1.3) - 2026-09-30
+
+- Sync files with `monitoring-forge/github-common` by @monitoring-forge-files-sync-action[bot] in https://github.com/monitoring-forge/check-cert-net/pull/18
+- go: bump the dependencies group with 2 updates by @dependabot[bot] in https://github.com/monitoring-forge/check-cert-net/pull/17
+- ci: bump Songmu/tagpr from 1.20.2 to 1.20.3 in the dependencies group by @dependabot[bot] in https://github.com/monitoring-forge/check-cert-net/pull/16
+
 ## [v0.1.2](https://github.com/monitoring-forge/check-cert-net/compare/v0.1.1...v0.1.2) - 2026-09-01
 
 - Sync files with `monitoring-forge/github-common` by @monitoring-forge-files-sync-action[bot] in https://github.com/monitoring-forge/check-cert-net/pull/9
