@@ -8,5 +8,5 @@ require github.com/jessevdk/go-flags v1.6.1 // indirect
 
 require (
 	github.com/monitoring-forge/flagrun v0.0.10
-	golang.org/x/sys v0.48.0 // indirect
+	golang.org/x/sys v0.49.0 // indirect
 )
