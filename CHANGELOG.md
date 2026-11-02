@@ -1,5 +1,20 @@
 # Changelog
 
+## [v0.1.3](https://github.com/monitoring-forge/check-cert-net/compare/v0.1.2...v0.1.3) - 2026-11-02
+
+- Sync files with `monitoring-forge/github-common` by @monitoring-forge-files-sync-action[bot] in https://github.com/monitoring-forge/check-cert-net/pull/18
+- go: bump the dependencies group with 2 updates by @dependabot[bot] in https://github.com/monitoring-forge/check-cert-net/pull/17
+- ci: bump Songmu/tagpr from 1.20.2 to 1.20.3 in the dependencies group by @dependabot[bot] in https://github.com/monitoring-forge/check-cert-net/pull/16
+- Sync files with `monitoring-forge/github-common` by @monitoring-forge-files-sync-action[bot] in https://github.com/monitoring-forge/check-cert-net/pull/22
+- go: bump github.com/monitoring-forge/flagrun from 0.0.9 to 0.0.10 in the dependencies group across 1 directory by @dependabot[bot] in https://github.com/monitoring-forge/check-cert-net/pull/20
+- ci: bump Songmu/tagpr from 1.20.3 to 1.21.1 in the tagpr group by @dependabot[bot] in https://github.com/monitoring-forge/check-cert-net/pull/23
+- ci: bump Songmu/tagpr from 1.21.1 to 1.21.2 in the tagpr group by @dependabot[bot] in https://github.com/monitoring-forge/check-cert-net/pull/25
+- ci: bump Songmu/tagpr from 1.21.2 to 1.21.3 in the tagpr group by @dependabot[bot] in https://github.com/monitoring-forge/check-cert-net/pull/27
+- ci: bump Songmu/tagpr from 1.21.3 to 1.21.4 in the tagpr group by @dependabot[bot] in https://github.com/monitoring-forge/check-cert-net/pull/29
+- go: bump golang.org/x/sys from 0.48.0 to 0.49.0 in the dependencies group across 1 directory by @dependabot[bot] in https://github.com/monitoring-forge/check-cert-net/pull/24
+- Sync files with `monitoring-forge/github-common` by @monitoring-forge-files-sync-action[bot] in https://github.com/monitoring-forge/check-cert-net/pull/28
+- ci: bump goreleaser/goreleaser-action from 7.2.3 to 7.3.0 in the dependencies group across 1 directory by @dependabot[bot] in https://github.com/monitoring-forge/check-cert-net/pull/30
+
 ## [v0.1.2](https://github.com/monitoring-forge/check-cert-net/compare/v0.1.1...v0.1.2) - 2026-09-01
 
 - Sync files with `monitoring-forge/github-common` by @monitoring-forge-files-sync-action[bot] in https://github.com/monitoring-forge/check-cert-net/pull/9
